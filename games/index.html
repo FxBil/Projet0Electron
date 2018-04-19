@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lancer une partie</title>
+    <link rel="stylesheet" href="../src/style.css">
+    <link rel="icon" type="image/x-icon" href="../src/img/icon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="menu">
+        <ul>
+            <li>
+                <img class="btn-menu" id="btn-close" alt="btn-close" src='../src/img/close.jpg' onmouseover=" src='../src/img/close2.jpg'" onmouseout=" src='../src/img/close.jpg'">
+            </li>
+            
+            <li>
+                <img class="btn-menu" id="btn-reduce" alt="btn-close" src='../src/img/reduce.jpg' onmouseover=" src='../src/img/reduce2.jpg'" onmouseout=" src='../src/img/reduce.jpg'">
+            </li>
+            <li>
+                <img class="btn-menu" id="btn-user" alt="btn-close" src='../src/img/user.jpg' onmouseover=" src='../src/img/user2.jpg'" onmouseout=" src='../src/img/user.jpg'">
+            </li>
+        </ul>
+    </div>
+    
+    <div class="container">
+        <h1>Choix de la partie</h1>
+        <div class="typeChoice" id="newGame">
+            Commencer une nouvelle partie
+        </div>
+        <div class="typeChoice" id="oldGame">
+            Reprendre une partie
+        </div>
+    </div>
+
+    <script>require('./index.js');</script>
+</body>
+
+</html>

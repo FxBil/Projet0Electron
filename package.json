@@ -1,0 +1,14 @@
+{
+  "name": "projet0",
+  "productName": "Projet 0 App",
+  "version": "0.1.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^1.8.4",
+    "sweetalert": "^2.1.0",
+    "sweetalert2": "^7.18.0"
+  }
+}

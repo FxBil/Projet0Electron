@@ -1,0 +1,133 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+/*--Pour la page CHARGEMENT--*/
+.chargePage{
+    color: #f3670c;
+    font-size: 20px;
+    text-align: center
+}
+#goIndex{
+    display: none;
+}
+
+/*--Pour la page LOGIN--*/
+.container h1{
+    text-align: center;
+    color: #f3670c;
+    margin-top: 80px;
+    margin-bottom: 50px
+}
+.btn-primary{
+    float:right
+}
+/*--Pour le MENU--*/
+.menu{
+    height: 40px;
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+    display: block;
+    top: 0;
+    width: 100%;
+    position: absolute;
+}
+.menu ul li{
+    display: block;
+}
+.btn-menu{
+    display: block;
+    float: right;
+    margin: 5px;
+    /*padding: 0px 10px;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 20px;
+    border:none;
+    background-color: #1a1a1a;
+    color: #fff;
+    border-radius: 50%*/
+}
+.btn-menu:hover, #btn-close:focus{
+    text-decoration: none;
+    outline: none;
+   /* color: #1a1a1a;
+    background-color: #f3670c;*/
+}
+
+/*--Pour la page CHOIX DE LA PARTIE, NOUVELLE PARTIE OU REPRENDRE UNE PARTIE--*/
+.typeChoice{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    border: 1px solid #1a1a1a;
+}
+
+.save-content{
+    height : 300px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.game-Name{
+    margin-top: 1px;
+    text-align: left;
+    font-size: 15px;
+    padding: 0 !important;
+}
+
+.perso-Name{
+    margin-top: 10px;
+    text-align: left;
+    font-size: 10px;
+    width: 150px;
+    padding: 0 !important;
+}
+.date{
+    margin-top: 10px;
+    text-align: right;
+    font-size: 10px;
+    width: 150px;
+    padding: 0 !important;
+}
+
+.saveTypeChoice{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    border: 1px solid #1a1a1a;
+}
+
+.choice{
+    height: 100px;
+    margin-top: 150px;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    border-top: 2px;
+}
+
+.perso{
+    margin-left: 100px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.pnj{
+    margin-right: 100px;
+    text-align: right;
+}
