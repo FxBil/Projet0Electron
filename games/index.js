@@ -13,7 +13,7 @@ btnClose.addEventListener('click', function (event) {
     var window = remote.getCurrentWindow();
     app.quit();
 })
-//Bonjour
+//Bonjour 2eme test
 const btnNewGame = document.getElementById('newGame');
 btnNewGame.addEventListener('click', function (event) {
     let newWin = new BrowserWindow({
